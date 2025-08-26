@@ -58,7 +58,7 @@
     box-sizing: border-box;
     
 }
-input :focus{
+input:focus{
     border-bottom:2px solid dodgerblue;
 }
 

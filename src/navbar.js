@@ -8,10 +8,7 @@ const Header = () => {
   const navLinkStyle = ({ isActive }) => ({
     fontWeight: isActive ? 'bold' : 'normal',
     textDecoration: isActive ? 'underline' : 'none',
-    lineHeight:isActive? "1.4rem": "none",
-    width:isActive?"100%" : "none",
-    borderBottom:isActive ? "2px solid yellow": "none"
-  });
+    });
 
   return (
     <header>

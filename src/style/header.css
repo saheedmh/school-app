@@ -46,9 +46,7 @@ Link{
     cursor: pointer;
 }
 
-Link > :hover{
-    background-color:#4A8CBB;
-}
+
 .mobile-menu-icon{
     display: none;
 }

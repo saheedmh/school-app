@@ -1,4 +1,4 @@
-/**.footer{
+.footer{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@
     line-height: 25px;
     padding: 10px;
 }
-footer::before{
+.footer::before{
     content:"";
     position:absolute;
     bottom:0;
@@ -41,7 +41,7 @@ footer::before{
 }
  
  
-footer > .social-icon{
+.footer > .social-icon{
     display: flex;
     position:relative;
     justify-content: space-around;
@@ -58,13 +58,14 @@ footer > .social-icon{
         align-items: center;
         
         margin-top:200px;
-        background-color: aqua;
+        background-color: #333;
+        color:#ffff;
     
     }
     .footer-text{
         
       
-     
+     margin-top:20px;
       margin-left:50px;
     }
     .footer-text > h1{
@@ -102,4 +103,4 @@ footer > .social-icon{
         height: 100vh;
     }
 }
-    **/
+    
