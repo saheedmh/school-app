@@ -52,7 +52,7 @@
   font-size: 1.5rem;
   color: whte;
   cursor: pointer;
-  margin-left:250px;
+  margin-left:100px;
 }
 
 /* Mobile nav that pushes content */
@@ -61,12 +61,12 @@
   flex-direction: column;
   background-color: #0d1117;
   padding: 1rem 0;
-  max-width: 40%;
-  position:absolute;
+  width: fit-content;
+  
   margin-left: auto;
   transition:left 0.5s ease;
-  position:relative;
-  transform:translateX(auto)
+
+  
 
 }
  
@@ -98,13 +98,14 @@
 }
 
 /* Responsive behavior */
-@media (min-width:320px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .nav-desktop {
     display: none;
   }
 
   .mobile-menu-icon {
     display: block;
+
   }
 
   .nav-mobile .link {
@@ -115,6 +116,10 @@
   }
 
   .btn {
-    margin: 1rem auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:30px;
+    text-align: center;
+    
   }
 }

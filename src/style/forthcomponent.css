@@ -1,7 +1,7 @@
 
 .firs-row{
     display: grid;
-    width: 100%;
+    
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     
     
@@ -21,13 +21,12 @@ text-transform: capitalize;
 font-size: 25px;
 }
 .cols{
-    margin-left: 100px;
-    background-attachment:red;
+    
 }
 .cols > img{
     display: block;
-    align-items: center;
-    margin-right: 30px;
+    
+    
   }
 
 .cols > h3{
@@ -36,7 +35,7 @@ font-size: 25px;
   
 }
   
-@media only screen and (min-width:320px) and (max-width:765px){
+@media (max-width:765px){
     
   
   .heading > h1{
@@ -46,26 +45,30 @@ font-size: 25px;
    margin-top:0px;
    
 }
-  
-  
+  .fourth-component-container{
+    margin-top:80px;
+    width: 100%;
+  }
+  .cols{
+    margin:0 auto;
+  }
+
   .cols > p{
     font-size: 18px;
     padding:5px;
+    max-width: 100%;
+     word-wrap: break-word;
     }
   
   
   .firs-row{
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 1fr;
     }
-  .cols{
-    
+    .cols div > img{
+    width:100px;
+    height: 100px;
+    margin:0 auto;
     
   }
-  
-  }
-  
- 
- 
+
+}

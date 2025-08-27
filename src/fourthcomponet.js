@@ -7,26 +7,34 @@ const Fourthcomponent = () => {
         </div>
             <div className="firs-row">
             <div className="cols" >
-            <img src="./images/vector.png" alt="" />
+            <div>
+                <img src="./images/vector.png" alt="" />
+            </div>
+            
             <h3 >community</h3>
              <p>We’re largely dependent on volunteers. That’s what makes us an engaged grassroots community, as our students call it ‘the HYF family’.</p>
             </div>
 
             <div className="cols">
-            <img src="./images/vector2-prjs.png" alt="" />
+            <div> <img src="./images/vector2-prjs.png" alt="" />
+           </div>
+
             <h3>diversity & inclusiveness</h3>
              <p>We’re largely dependent on volunteers. That’s what makes us an engaged grassroots community, as our students call it ‘the HYF family’.</p>
             </div>
             <div className="cols" >
-            <img src="./images/vector2-prjs.png" alt="" />
+            <div><img src="./images/vector2-prjs.png" alt="" />
+            </div>
             
             <h3>commimtment</h3>
              <p>We’re largely dependent on volunteers. That’s what makes us an engaged grassroots community, as our students call it ‘the HYF family’.</p>
             </div>
 
             <div className="cols">
-            <img src="./images/commit.png" alt="" />
-            
+            <div>
+                 <img src="./images/commit.png" alt="" />
+           
+            </div>
             <h3>open</h3>
              <p>We’re largely dependent on volunteers. That’s what makes us an engaged grassroots community, as our students call it ‘the HYF family’.</p>
             </div>
