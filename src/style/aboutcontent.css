@@ -9,18 +9,28 @@
     margin-right: auto;
     width: 70%;
     border-radius: 5px;
+    line-height: 40pxpx;
     color:white;
     margin-top:30px;
 }
 .about-content >h1{
     text-transform: uppercase;
-    margin-left: 200px;
+    text-align: center;
 
+}
+.contents-row{
+    line-height: 30px;
+}
+.about-content > p{
+    margin-top:10px;
+    background-color: blue;
 }
 
 @media  (max-width:765px) {
     .about-content{
-        min-width: min-content;
+        width:100%;
+        margin-left: auto;
+        margin-right:auto;
 
     }
 }

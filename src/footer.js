@@ -1,7 +1,8 @@
 import './style/footer.css'
 
 const Footer = () => {
-    return (  
+    return ( 
+        <foote> 
         <div className='footer'>
         <div className="footer-text">
         
@@ -12,10 +13,8 @@ Cantersteen 12
 contact@hackyourfuture.be
 </p>
         </div>
-        <div className="social-icon">
-            
-            </div>
            </div>
+           </foote>
     );
 }
  

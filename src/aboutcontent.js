@@ -11,7 +11,7 @@ const Aboutcontent = () => {
             </div>
             <div className="content-second-row">
                 <p>HackYourFuture was initially founded in 2015 in Amsterdam.</p>
-                <p>HackYourFuture was replicated in Belgium.</p>
+                <p style={{marginBottom:""}}>HackYourFuture was replicated in Belgium.</p>
                 <p>HackYourFuture @ Lab-Antwerp-1.</p>
             </div>
             </div>
