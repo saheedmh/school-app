@@ -14,22 +14,22 @@ const  Loginpage = () => {
             <input type="text" id='email'/>
             <br/>
             
-            <label htmlFor='password'>password</label>
+            <label htmlFor='password' style={{color:"white"}}>password</label>
             <input type="password" name="" id="password" /><br></br>
             <button >login</button><br/>
-            <section>         
+            <section className='checkbox-section'>         
             <input type="checkbox"  name="" id="" value='remember me' /> <labe id="checkbox-id">Remember me</labe> 
             <br/>
-            <Link>forget password</Link>
+            <Link style={{color:"white"}}>forget password</Link>
             </section>
    
             
-          <span>or With</span><br /><br /><br />
+          <span style={{color:"white"}} className='span-element'>or With</span><br /><br /><br />
 
           <button  >login with facebook</button><br></br><br />
           <button id='btn-id'>login with google</button><br></br>
           <p>Don't have  an account?       
-          <spa><Link to="signpage" className='link'>
+          <spa><Link to="signpage" className='links'>
           sign</Link></spa> </p> 
 
          </form>   

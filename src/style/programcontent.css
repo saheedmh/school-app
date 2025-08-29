@@ -58,7 +58,7 @@ button{
 .seconds-cols{
     display: flex;
     justify-content: space-around;
-    background-color: #F7F9FE;
+    background-color: #f7f8fa;
 }
 .seconds-cols > :nth-child(1){
     margin-left: 30px;
@@ -79,7 +79,7 @@ button{
     margin-left: 30px;
 }
 .first-row > p{
-    width:450px;
+    max-width:450px;
     padding: 10px;
     line-height: 25px;
     text-align: justify;
@@ -193,7 +193,7 @@ color:#4A8CBB;
 }
 
 .rows-image >img{
-    width:450px;
+    max-width:450px;
     margin-bottom:10px;
 }
 .fifth-row::after{
@@ -205,7 +205,7 @@ color:#4A8CBB;
     border-bottom:2px solid gray;
 
 }
-@media only screen and (min-width:320px) and (max-width:765px) {
+@media (max-width:765px) {
     .firstprogram-content{
         display:flex;
         flex-direction:column;
@@ -218,7 +218,7 @@ color:#4A8CBB;
     }
      .program-img >  img{
 
-     min-width: 320px;
+     max-width: 320px;
     height: 300px;
     
 }
@@ -238,12 +238,15 @@ color:#4A8CBB;
         align-items:center;
         margin-right: 40px;
     }
+    .program-content > p{
+        text-align: justify;
+    }
     .para > P{
        
         width: 300px;
         display: flex;
         font-size: 18px;
-        align-items: center;
+        align-items: justify;
         background-color: white;
        }
        .prgrm-second-col > button{
@@ -260,11 +263,14 @@ color:#4A8CBB;
        }
        .first-row{
         width:80%;
+        margin-left: auto;
+        margin-right: auto;
        }
        .first-row > p{
-        max-width: 320px;
-        margin-left: auto;
-        margin-right:auto;
+        max-width: 280px;
+        margin-left: -20px;
+        margin-right:20px;
+
        }
        #btnsid{
       min-width: fit-content;
@@ -272,10 +278,10 @@ color:#4A8CBB;
       border:none;
        }
        .checkbox-div{
-        width:80%;
-        margin-left: auto ;
+        width:320px;
+        margin-left: 0;
         line-height: 20px;
-        margin-right:auto;
+        margin-right:0;
         padding:10px;
 
        }
@@ -333,6 +339,7 @@ color:#4A8CBB;
         margin-left:auto;
         margin-right:auto;
         padding:10px;
+        text-align: justify;
         
         
        }
@@ -346,8 +353,12 @@ color:#4A8CBB;
         display: grid;
        
        }
+       .seconds-cols{
+        widows: 100%;
+       }
        .imagedivs > img{
-        max-width:320px;
+        max-width:80%;
+        height:200px;
         margin-left:auto;
         margin-right:auto;
        }
@@ -360,54 +371,55 @@ color:#4A8CBB;
         
        }
        .checkbox-content{
-        width:320px ;
-        margin-left: auto;
-        margin-right: auto;
+        width:300px ;
+        margin-left: 0;
+        margin-right: 0px;
     
        }
        .fifth-row {
         display: flex;
         flex-direction: column;
-        min-width: 100%;
+        max-width: 100%;
         margin-right: 50px;
        } 
        .rows-text{
         display: flex;
         flex-direction: column;
-        min-width:90%;
+        max-width:90%;
         
         align-items: center;
         
        }
        .rows-text > h3{
         width: 300px;
+        margin-left: 40px;
+        margin-right: auto;
        }
        .rows-text > p{
-        font-size:16px;
-        padding:10px;
-        min-width:300px;
-        margin-left:auto;
+        
+        
+        max-width:290px;
+        text-align: justify;
         margin-right:auto;
         
        }
        .rows-image {
-        width: 100%;
+        max-width: 100%;
         display: grid;
    
 
        }
        
        .rows-image > img{
-        max-width: 320px;
-        margin-right: 40px;
-        place-items: center;
-        place-content: center;
+        width: 280px;
+        margin-left:-25px;
+        
+        
         display: block;
     
        }
        .rows-text > :nth-child(2){
-        line-height: 25px;
-        max-width: 360px;
+        
        }   
 }
 

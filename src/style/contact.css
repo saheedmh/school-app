@@ -127,6 +127,10 @@ color:#ff652f
         min-height: 100vh;
         
     }
+     textarea{
+            width: 80%;
+        }
+    
     .contact-form{
         margin-top: 240px;
         width: 90%;
