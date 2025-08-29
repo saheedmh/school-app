@@ -54,6 +54,7 @@
 button{
     border: none;
     color:#ffff;
+    background-color: #4A8CBB;
 }
 .seconds-cols{
     display: flex;
@@ -83,6 +84,7 @@ button{
     padding: 10px;
     line-height: 25px;
     text-align: justify;
+    color:black;
 }
 .third-cols{
     display: flex;
@@ -205,6 +207,9 @@ color:#4A8CBB;
     border-bottom:2px solid gray;
 
 }
+.rows-paragraph{
+    color: black;
+}
 @media (max-width:765px) {
     .firstprogram-content{
         display:flex;
@@ -247,7 +252,7 @@ color:#4A8CBB;
         display: flex;
         font-size: 18px;
         align-items: justify;
-        background-color: white;
+
        }
        .prgrm-second-col > button{
         margin-bottom:120px;
@@ -395,12 +400,13 @@ color:#4A8CBB;
         margin-left: 40px;
         margin-right: auto;
        }
-       .rows-text > p{
+       .rows-paragraph{
         
-        
+        color:black;
         max-width:290px;
         text-align: justify;
         margin-right:auto;
+        background-color: blue
         
        }
        .rows-image {

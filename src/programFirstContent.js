@@ -4,7 +4,7 @@ const ProgramFirstContent = () => {
         <div className="program-first-content">
             <div className="firstprogram-content ">
              <div className='program-content'>
-                <h1 className='program-heading-one'>Start your new career today!</h1>
+              <h1 className='program-heading-one'>Start your new career today!</h1>
                 
              <p>HackYourFuture is a free 9-month front end web development program for newcomers passionate about code and web development. You don’t need any technical background to start, only loads of motivation.</p>
 
@@ -18,7 +18,7 @@ Class starts: end September 2021 (Applications CLOSED)
 
 Next call for Applications: to be announced</p>
 
-<button style={{padding:"10px", border:"none", marginLeft:"200px", backgroundColor:"#23efef", color:'#ffff'}}>apply</button>
+<button style={{padding:"10px", border:"none", marginLeft:"200px", backgroundColor:"#4A8CBB", color:'#ffff'}}>apply</button>
 </div>
 <div className="program-img">
     <img src="./images/program-image.png" alt=""  />
@@ -47,7 +47,7 @@ Next call for Applications: to be announced</p>
        <div className="third-cols">
         <div className="third-col-text">
              <h2>8-month program</h2>
-             <button>discover a full curriculum here</button>
+            <button style={{background:""}}>discover a full curriculum here</button>
              <br /><br />
              <button id='btnid'>become a coach</button>
         </div>
@@ -73,7 +73,7 @@ Next call for Applications: to be announced</p>
                 <div className="fifth-row">
                     <div className="rows-text">
                         <h3>Towards a job: Mentorship Program</h3>
-                        <p>Career guidance is an essential part of our program, as the real challenge for our graduates is finding an internship or job as a junior web developer.
+                        <p className="rows-paragraph">Career guidance is an essential part of our program, as the real challenge for our graduates is finding an internship or job as a junior web developer.
 
 Thanks to our voluntary mentors, we offer our students a career guiding journey when graduating from our program. Each student has its own mentor, who helps with updating their CV and LinkedIn profile, writing a motivation letter, doing a mock interview, and leading them through the job-hunting jungle in the IT sector</p>
 <button id='btnids'>become a mentor</button>
