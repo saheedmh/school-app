@@ -39,7 +39,7 @@ const handleUpdate = ()=>{
     </div>
     {allData.map((val, i)=>{
        return( 
-       <div className='crud-button-container'>
+       <div className='crud-button'>
   <p style={{backgroundColor:"#f3f3f3", display:"flex", justifyContent:"space-around"}}>{val}
   <button className='edit' style={{border:"none"}} onClick={() =>handleEdit(i)}>Edit</button>
   <button className='delete' onClick={()=> handledelete(i)}>Delete</button>

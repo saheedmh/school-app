@@ -8,11 +8,7 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    
-    
-    
-   
-}
+    }
 .login-form{
     background-color: #333;
     min-width: 40%;
@@ -185,7 +181,7 @@ span::after{
     
     width: 250px;
     margin-right: auto;
-    margin-left: 10px;}
+    margin-left: 30px;}
 label{
     margin-right:auto;
     margin-left: 50px;
@@ -202,4 +198,42 @@ button{
     margin-right: auto;
 }
 
+}
+
+
+@media (max-width:320px){
+   .login-form{
+    min-width: 300px;
+    
+   } 
+   .login-container{
+    min-width: 100%;
+   }
+   
+   .login-form > input[type="text"], input[type="password"]{
+    
+   
+    
+    width: 240px;
+    margin-right: auto;
+    
+}
+label{
+    margin-right:auto;
+    margin-left: 50px;
+}
+.checkbox-section{
+    width: 280px;
+    margin-left: 10px;
+}
+#btn-id{
+    margin-right: auto;
+    
+}
+button{
+    margin-right: auto;
+}
+.login-form > h2{
+    max-width:230px;
+}
 }

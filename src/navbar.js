@@ -19,7 +19,6 @@ const Header = () => {
           <NavLink className="link" style={navLinkStyle} to="/">Home</NavLink>
           <NavLink className="link" style={navLinkStyle} to="/program">The Program</NavLink>
           <NavLink className="link" style={navLinkStyle} to="/about">About</NavLink>
-          <NavLink className="link" style={navLinkStyle} to="/signpage">Sign Up</NavLink>
           <NavLink className="link" style={navLinkStyle} to="/crud">CRUD</NavLink>
           <NavLink className="link" style={navLinkStyle} to="/loginpage">Login</NavLink>
           <button className="btn">Apply Now</button>
@@ -37,7 +36,6 @@ const Header = () => {
           <NavLink className="link" style={navLinkStyle} to="/">Home</NavLink>
           <NavLink className="link" style={navLinkStyle} to="/program">The Program</NavLink>
           <NavLink className="link" style={navLinkStyle} to="/about">About</NavLink>
-          <NavLink className="link" style={navLinkStyle} to="/signpage">Sign Up</NavLink>
           <NavLink className="link" style={navLinkStyle} to="/crud">CRUD</NavLink>
           <NavLink className="link" style={navLinkStyle} to="/loginpage">Login</NavLink>
           <button className="btn">Apply Now</button>

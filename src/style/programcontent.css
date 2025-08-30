@@ -54,7 +54,7 @@
 button{
     border: none;
     color:#ffff;
-    background-color: #4A8CBB;
+    
 }
 .seconds-cols{
     display: flex;
@@ -406,7 +406,7 @@ color:#4A8CBB;
         max-width:290px;
         text-align: justify;
         margin-right:auto;
-        background-color: blue
+        
         
        }
        .rows-image {
