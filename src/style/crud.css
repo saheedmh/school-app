@@ -8,41 +8,72 @@ width: 40%;
 height: 450px;
 margin:auto;
 border-radius: 25px;
+padding-top:20px;
 background-color: #333;
+padding-left: 50px;
 box-shadow: 0 7px 10px 4px rgba(0, 0, 0, 0.5);
-position: relative;
-
-
-
-
 }
 .input-container{
-
     max-width:400px;
-    display: block;
-    
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
-
+    margin-bottom: 20px;
+    margin-left: 50px;
     
-
-
 }
 .input-container > input[type="text"]{
 width:200px;
 display: block;
 outline:none;
 border:none;
-
+padding-left:5px;
+border-radius: 10px;
 
 
 }
-.crud-button{
-   margin-top:100px; 
+.input-container > button{
+    margin-left: 10px;
+}
 
-   margin-right: 100px;
+.crud-output{
+   margin:auto;
+   width:fit-content;
+   padding-left: 20px;
 
+   
+   
+}
+.crud-output > p{
+    padding-left: 10px;
+    background-color: #333;
+}
+.crud-output > p > button{
+border-radius: 0;
+margin-left: 5px;
+
+}
+@media (max-width:640px){
+.crud-content{
+    width: 90%;
+    padding-left: 0%;
+    
+    padding-right: 0%;
+
+}
+.input-container{
+width: 90%;
+margin-left: 1.2rem;
+
+
+}
+.crud-output > p{
+    word-wrap: break-word;
+}
+.input-container > button{
+    margin-left: 5px;
+    border-radius: none;
+    
+}
+input[type="text"]{
+    width: 150px;
+}
 }

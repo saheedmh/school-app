@@ -30,7 +30,8 @@ const handleUpdate = ()=>{
 }
   return (
     <div className='crud' style={{marginBottom:"50px"}}>
-<h1>create , read, update and Delete</h1>
+<h1>Todo-List App</h1>
+<p style={{color:"#ffff"}}>This is todo app when you can create all your  daily activities, Update it and also Delete it</p>
 <div className="crud-content">
 <div className="input-container">
       <input type="text"  value={ name} onChange={(e) => setName(e.target.value)} />
@@ -39,8 +40,8 @@ const handleUpdate = ()=>{
     </div>
     {allData.map((val, i)=>{
        return( 
-       <div className='crud-button'>
-  <p style={{backgroundColor:"#f3f3f3", display:"flex", justifyContent:"space-around"}}>{val}
+       <div className='crud-output'>
+  <p style={{backgroundColor:"#f3f3f3", display:"flex", justifyContent:""}}>{val}
   <button className='edit' style={{border:"none"}} onClick={() =>handleEdit(i)}>Edit</button>
   <button className='delete' onClick={()=> handledelete(i)}>Delete</button>
   </p>

@@ -79,7 +79,11 @@ button{
     color:white;
     margin-left:30px;
     display: flex;
-   grid-tempate-columns: 1fr 1fr;
+    
+    padding: 0px;
+    width: 300px;
+    
+   
     
     
 }
@@ -89,10 +93,7 @@ section > input[type="checkbox"]{
 }
   #checkbox-id{
     width: 200px;
-    
-    
-    
-  }
+     }
     section > :nth-child(2){
     
     width: 160px;
@@ -113,7 +114,11 @@ section > a{
     text-decoration: none;
     display: block;
 }
-.login-form > .btn-id{
+label{
+    font-weight: 500;
+    color:white;
+}
+.login-form > #btn-id{
     width:60%;
     padding:5px;
     
@@ -160,11 +165,14 @@ span::after{
 
 .links{
     text-decoration: none;
-    margin-left: 3px;
+    margin-left: 10px;
     background-color: #4A8CBB;
-    padding:10px;
+    padding-left:5px;
+    padding-right: 5px;
+    font-size: 14px;
+    padding-bottom:5px;
     color: white;
-    border-radius: 50px;
+    border-radius: 25px;
     text-transform: capitalize;
 }
 @media (max-width:760px){
@@ -184,7 +192,7 @@ span::after{
     margin-left: 30px;}
 label{
     margin-right:auto;
-    margin-left: 50px;
+    margin-left:20px;
 }
 .checkbox-section{
     width: 300px;

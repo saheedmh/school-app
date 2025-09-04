@@ -18,7 +18,7 @@ const  Loginpage = () => {
             <input type="password" name="" id="password" /><br></br>
             <button >login</button><br/>
             <section className='checkbox-section'>         
-            <input type="checkbox"  name="" id="" value='remember me' /> <labe id="checkbox-id">Remember me</labe> 
+            <input type="checkbox"  name="" id="checkbox" value='remember me' /> <label id="checkbox-id">Remember me</label> 
             <br/>
             <Link style={{color:"white"}}>forget password</Link>
             </section>
@@ -26,9 +26,9 @@ const  Loginpage = () => {
             
           <span style={{color:"white"}} className='span-element'>or With</span><br /><br /><br />
 
-          <button  >login with facebook</button><br></br><br />
+          <button id='btn-id' >login with facebook</button><br></br><br />
           <button id='btn-id'>login with google</button><br></br>
-          <p>Don't have  an account?       
+          <p style={{color:"white"}}>Don't have  an account?       
           <spa><Link to="signpage" className='links'>
           sign</Link></spa> </p> 
 
